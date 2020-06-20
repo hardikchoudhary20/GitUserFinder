@@ -11,7 +11,6 @@ class UI{
       <div class = "col-md-3">
 <img class = "img-fluid mb-2" src="${user.avatar_url}">
 <a href = "${user.html_url}" target= "_blank" class = btn btn-primary btn-block mb-4">View Profile</a>
-
 </div>
 <div class="col-md-9">
 <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
@@ -46,7 +45,7 @@ showRepos(repos) {
                 <div class="col-md-6">
                 <span class="badge badge-primary">Stars: ${repo.stargazers_count}</span>
                 <span class="badge badge-secondary">Watchers: ${repo.watchers_count}</span>
-                <span class="badge badge-success">Forks: ${repo.forks_count}</span>
+                <span class="badge badge-success">Forks: ${repo.forms_count}</span>
                 </div>
               </div>
             </div>
